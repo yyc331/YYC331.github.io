@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>尹逸尘 - 家乡成都的美食</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 页眉导航 -->
+  <header>
+    <nav>
+      <a href="index.html">首页</a>
+      <a href="food.html">成都美食</a>
+      <a href="growth.html">成长经历</a>
+      <a href="hobbies.html">个人爱好</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 美食介绍区块：标题+城市印象图片 -->
+    <section id="food-intro">
+      <h1>家乡成都的美食记忆</h1>
+      <p>成都是一座被美食环绕的城市，每一道小吃都承载着我的成长故事。从小学门口的糖油果子到家庭聚餐的火锅，这些味道早已融入我的生活。</p>
+      
+    </section>
+
+    <!-- 美食分类区块：网格布局展示四大美食 -->
+    <section id="food-categories">
+      <h2>我的最爱美食分类</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="img/291cc0add38ebd8b33d4b80955da218.jpg" alt="火锅" style="height:200px;">
+          <div class="grid-item-content">
+            <h3>麻辣火锅</h3>
+            <p>家庭聚餐的必备项目，最喜欢和父母在春熙路的老火锅店享用</p>
+            <p><strong>记忆点：</strong>16岁生日时，一家人在火锅店庆祝的温暖场景</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="img/a1445762de9847457932a14a27b7950.jpg" alt="担担面" style="height:200px;">
+          <div class="grid-item-content">
+            <h3>担担面</h3>
+            <p>初中时每天早餐的选择，成都七中门口的面馆是我的"食堂"</p>
+            <p><strong>记忆点：</strong>中考前，老板特意为我多加了一勺花生碎加油打气</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src=img\aff8600fb4c5f9c928564055dd3b32d.jpg alt="糖油果子" style="height:200px;">
+          <div class="grid-item-content">
+            <h3>糖油果子</h3>
+            <p>兴隆小学门口的经典小吃，放学后必买的"快乐源泉"</p>
+            <p><strong>记忆点：</strong>用零花钱买糖油果子时，不小心把糖汁沾到校服上</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src=img\bb518fb992efd07058e5098b454f005.jpg alt="钟水饺" style="height:200px;">
+          <div class="grid-item-content">
+            <h3>钟水饺</h3>
+            <p>爷爷最爱的小吃，周末常带我去文殊院附近的老店品尝</p>
+            <p><strong>记忆点：</strong>爷爷教我蘸醋的正确方法，说这样才能吃出鲜味</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 餐厅推荐区块：表格展示家庭常去餐厅 -->
+    <section id="food-table">
+      <h2>家庭常去餐厅推荐</h2>
+      <table>
+        <tr>
+          <th>餐厅名称</th>
+          <th>地址</th>
+          <th>推荐菜品</th>
+          <th>记忆故事</th>
+        </tr>
+        <tr>
+          <td>蜀九香火锅</td>
+          <td>锦江区东大街</td>
+          <td>麻辣牛肉、毛肚</td>
+          <td>每年春节 family dinner 的固定地点</td>
+        </tr>
+        <tr>
+          <td>贺记蛋烘糕</td>
+          <td>青羊区文庙西街</td>
+          <td>奶油肉松蛋烘糕</td>
+          <td>高中时和朋友翘课去买的"秘密基地"</td>
+        </tr>
+        <tr>
+          <td>明婷饭店</td>
+          <td>金牛区星辉西路</td>
+          <td>脑花豆腐、荷叶排骨</td>
+          <td>考上大学后，父母带我去庆祝的第一家餐厅</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- 美食留言表单：用户可分享自己的美食故事 -->
+    <section id="food-message">
+      <h2>分享你的美食故事</h2>
+      <form>
+        <label for="food-name">你最喜欢的成都美食</label>
+        <input type="text" id="food-name" name="food-name" placeholder="例如：火锅">
+        
+        <label for="food-story">你的美食记忆</label>
+        <textarea id="food-story" name="food-story" placeholder="请分享你和成都美食的故事..."></textarea>
+        
+        <input type="submit" value="提交分享">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 尹逸尘个人网站 | 前端开发课程作业</p>
+  </footer>
+</body>
+</html>

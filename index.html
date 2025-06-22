@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>尹逸尘 - 个人介绍</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 页眉导航：固定定位，包含网站导航链接 -->
+  <header>
+    <nav>
+      <a href="index.html">首页</a>
+      <a href="food.html">成都美食</a>
+      <a href="growth.html">成长经历</a>
+      <a href="hobbies.html">个人爱好</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 个人基本信息区块：使用弹性布局展示姓名、年龄、家乡等 -->
+    <section id="personal-info">
+      <h1>尹逸尘 - 个人总介绍</h1>
+      <div class="flex-container">
+        <div class="flex-item">
+          <h2>基本信息</h2>
+          <p><strong>姓名：</strong>尹逸尘</p>
+          <p><strong>年龄：</strong>20岁</p>
+          <p><strong>家乡：</strong>四川成都</p>
+          <p><strong>简介：</strong>热爱生活的前端开发学习者，喜欢用代码记录成长，用镜头捕捉美好。</p>
+        </div>
+        <div class="flex-item">
+          <h2>家乡印象</h2>
+          <p>成都是一座充满烟火气的城市，这里有麻辣鲜香的火锅、悠闲的茶馆文化，还有我成长的点点滴滴。</p>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- 成长经历概览区块：使用表格展示教育阶段 -->
+    <section id="growth-summary">
+      <h2>成长经历概览</h2>
+      <table>
+        <tr>
+          <th>时间</th>
+          <th>阶段</th>
+          <th>关键事件</th>
+        </tr>
+        <tr>
+          <td>2010-2016</td>
+          <td>小学</td>
+          <td>就读于成都市天府新区兴隆小学，培养艺术兴趣</td>
+        </tr>
+        <tr>
+          <td>2016-2019</td>
+          <td>初中</td>
+          <td>进入成都七中，开始接触摄影</td>
+        </tr>
+        <tr>
+          <td>2019-2022</td>
+          <td>高中</td>
+          <td>深入学习编程，参加校园技术社团</td>
+        </tr>
+        <tr>
+          <td>2022至今</td>
+          <td>大学</td>
+          <td>主修计算机专业，系统学习Web前端开发</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- 爱好索引区块：使用网格布局展示三大爱好 -->
+    <section id="hobbies-summary">
+      <h2>兴趣爱好索引</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="img/004af672cdfb247c2f84af252e2f827.jpg" alt="音乐爱好">
+          <div class="grid-item-content">
+            <h3>音乐欣赏</h3>
+            <p>喜欢RELAXING INSTRUMENTAL类型音乐，如《CELESTIAL ECHOES》</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src=img\7827e8598fd15bbe783fd984c14f953.jpg alt="摄影爱好" style="height:180px;">
+          <div class="grid-item-content">
+            <h3>摄影创作</h3>
+            <p>使用摄影机记录生活，擅长风光与人文摄影</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="img/63b336c78fe975739ad9473cca71040.jpg" alt="阅读爱好">
+          <div class="grid-item-content">
+            <h3>阅读思考</h3>
+            <p>偏好科技与人文类书籍，享受知识带来的成长</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系方式表单区块：包含姓名、邮箱、留言输入框 -->
+    <section id="contact-form">
+      <h2>联系方式</h2>
+      <form>
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="name" placeholder="请输入您的姓名">
+        
+        <label for="email">邮箱</label>
+        <input type="email" id="email" name="email" placeholder="请输入您的邮箱">
+        
+        <label for="message">留言</label>
+        <textarea id="message" name="message" placeholder="请告诉我您的想法..."></textarea>
+        
+        <input type="submit" value="提交留言">
+      </form>
+    </section>
+  </main>
+
+  <!-- 页脚：版权信息 -->
+  <footer>
+    <p>© 2025 尹逸尘个人网站 | 前端开发课程作业</p>
+  </footer>
+</body>
+</html>
